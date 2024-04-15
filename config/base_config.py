@@ -16,7 +16,7 @@ IP_PROXY_POOL_COUNT = 2
 IP_PROXY_PROVIDER_NAME = "jishuhttp"
 
 # 设置为True不会打开浏览器（无头浏览器），设置False会打开一个浏览器（小红书如果一直扫码登录不通过，打开浏览器手动过一下滑动验证码）
-HEADLESS = True
+HEADLESS = False
 
 # 是否保存登录状态
 SAVE_LOGIN_STATE = True
@@ -31,7 +31,7 @@ USER_DATA_DIR = "%s_user_data_dir"  # %s will be replaced by platform name
 START_PAGE = 1
 
 # 爬取视频/帖子的数量控制
-CRAWLER_MAX_NOTES_COUNT = 20
+CRAWLER_MAX_NOTES_COUNT = 400
 
 # 并发爬虫数量控制
 MAX_CONCURRENCY_NUM = 4
